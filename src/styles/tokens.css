@@ -1,0 +1,59 @@
+:root {
+  /* Color system (60-30-10 discipline) */
+  --color-canvas: #ffffff;
+  --color-canvas-alt: #f6f9fd;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #eff4fb;
+
+  --color-navy-950: #071b3d;
+  --color-navy-900: #0b2a5b;
+  --color-navy-800: #123f85;
+
+  --color-accent: #1f6fd1;
+  --color-accent-hover: #1759ab;
+  --color-gold: #c9a24b;
+  --color-gold-hover: #b89038;
+  --color-gold-soft: #f9f3e3;
+
+  --color-ink: #172334;
+  --color-ink-muted: #4b5b73;
+  --color-ink-subtle: #64748b;
+
+  --color-border: #dce4f0;
+  --color-border-strong: #b9c7dc;
+
+  /* Semantic state colors (always paired with text/icon) */
+  --color-success-bg: #dcf5e6;
+  --color-success-ink: #14683a;
+  --color-warning-bg: #fef3c7;
+  --color-warning-ink: #8a5a00;
+  --color-danger-bg: #fee2e2;
+  --color-danger-ink: #991b1b;
+  --color-danger: #b42318;
+  --color-info-bg: #e1ecfc;
+  --color-info-ink: #12459a;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Radii & Spacing */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+
+  --container-max: 1160px;
+  --header-height: 64px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 160ms;
+  --duration-med: 200ms;
+
+  /* Elevation (single-level max) */
+  --shadow-card: 0 4px 18px rgba(11, 42, 91, 0.06);
+  --shadow-card-hover: 0 10px 26px rgba(11, 42, 91, 0.11);
+  --shadow-modal: 0 20px 48px rgba(7, 27, 61, 0.24);
+}
